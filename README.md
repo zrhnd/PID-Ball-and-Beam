@@ -1,11 +1,9 @@
-
-Demo:
-https://drive.google.com/file/d/1Ny1G3wwNm1VYaLJH1jfdDQXM5qyiEKa6/view?usp=sharing
-
 # Ball and Beam Control System
 
 ## 📋 Deskripsi Proyek
 Proyek Ball and Beam adalah sistem kontrol yang dirancang untuk mengatur posisi bola pada sebuah balok (beam) menggunakan prinsip kontrol PID. Sistem ini menggunakan sensor jarak untuk mendeteksi posisi bola dan aktuator motor DC untuk mengatur kemiringan balok agar bola tetap pada posisi yang diinginkan.
+### Demo:
+https://drive.google.com/file/d/1Ny1G3wwNm1VYaLJH1jfdDQXM5qyiEKa6/view?usp=sharing
 
 ---
 
