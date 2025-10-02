@@ -53,6 +53,7 @@ PID (Proportional-Integral-Derivative) adalah algoritma kontrol umpan balik yang
 - Soldering Iron
 - Laptop
 - Cutter
+- Lem Kayu
 
 ---
 
@@ -62,44 +63,8 @@ PID (Proportional-Integral-Derivative) adalah algoritma kontrol umpan balik yang
 <img width="1080" height="720" alt="Screenshot 2025-09-25 154521" src="https://github.com/user-attachments/assets/ad602c62-e211-4716-b083-f6ef2150b8a7" />
 ### Koneksi Arduino:
 
-```
-Arduino Uno Pinout:
-
-SENSOR IR:
-- Sensor Kiri: A0
-- Sensor Kanan: A1
-- Sensor Tengah 1: A2
-- Sensor Tengah 2: A3
-
-SERVO MOTOR:
-- Signal: Digital Pin 9
-- VCC: 5V
-- GND: GND
-
-POWER:
-- External 5V untuk servo
-- Common Ground
-
-ADDITIONAL:
-- LED Indicator: Pin 13
-- Button Reset: Pin 2
-```
-
-### Schematic Detail:
-
-```
-+5V ────┬─────────┬─────────┬─────────┬─────────┬───── Servo VCC
-       │         │         │         │         │
-      IR1       IR2       IR3       IR4      ... 
-       │         │         │         │         │
-A0 ────┘    A1 ──┘    A2 ──┘    A3 ──┘         │
-                                              │
-GND ───┬─────────┬─────────┬─────────┬─────────┴───── Common GND
-       │         │         │         │
-      IR1 GND   IR2 GND   IR3 GND   IR4 GND   Servo GND
-
-Digital Pin 9 ────────────────────────────────────── Servo Signal
-```
+### Encoder pinout:
+<img width="259" height="194" alt="images" src="https://github.com/user-attachments/assets/07cbf02e-0a90-410f-98fe-196f05aa89a0" />
 
 ---
 
