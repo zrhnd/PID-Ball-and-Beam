@@ -23,44 +23,38 @@ PID (Proportional-Integral-Derivative) adalah algoritma kontrol umpan balik yang
 
 ## 🎨 Rancangan 3D
 
-###Desain Awal:
+### Desain Awal:
 <img width="1478" height="748" alt="Desain 3d Ball and Beam(9)" src="https://github.com/user-attachments/assets/a5dd5728-c1d6-4144-8fce-b34f5ab00e28" />
-###tampak depan:
+### tampak depan:
 <img width="1478" height="748" alt="Desain 3d Ball and Beam(8)" src="https://github.com/user-attachments/assets/41eb0e59-3c82-4302-beae-bd2010ae4a09" />
-###tampak atas:
+### tampak atas:
 <img width="1478" height="748" alt="Desain 3d Ball and Beam(7)" src="https://github.com/user-attachments/assets/5d87c3d9-1e96-415d-9b5c-83f509d56073" />
 
 ---
 
 ## 🛠️ Alat dan Bahan
 
-### Komponen Elektronik:
-| Komponen | Jumlah | Spesifikasi |
-|----------|--------|-------------|
-| Arduino Uno | 1 | Mikrokontroler utama |
-| Servo Motor | 1 | SG90/MG996R |
-| Sensor IR | 2-4 | TCRT5000/Sharp GP2Y0A21 |
-| Motor Driver | 1 | L298N (jika menggunakan DC motor) |
-| Breadboard | 1 | - |
-| Jumper Wires | - | Male-to-Male, Male-to-Female |
-| Power Supply | 1 | 5V-12V DC |
+### Bahan:
+| Komponen | Jumlah |
+|----------|--------|
+| Arduino Uno | 1 |
+| HC-SR04c | 2 |
+| L298N | 1 | 
+| Motor DC 25GA 370 12V with Encoder | 1 |
+| Jumper Wires | - |
+| DC Jack Female | 1 |
+| Power Adapter AC to DC 12V 1A | 1 |
+| Karton | 1 |
+| Kayu Balsa 1cm x 1cm x 50cm | 20 |
+| Kawat 0.3 cm x 20 cm | 1 |
+| Bola/Hotwheels | 1 |
+| Balok 3cm x 3cm x 3cm | 1 |
 
-### Komponen Mekanik:
-| Komponen | Jumlah | Keterangan |
-|----------|--------|-------------|
-| Beam Material | 1 | Akrilik 50cm |
-| Base Plate | 1 | Akrilik 40×25cm |
-| Bola | 1 | Diameter 3-4cm |
-| Bearing | 2 | Untuk pivot point |
-| Screw & Nut Set | - | M3 berbagai panjang |
-| 3D Printed Parts | - | Bracket dan support |
-
-### Tools:
+### Alat:
 - Multimeter
 - Soldering Iron
-- Screwdriver Set
-- 3D Printer
-- Laser Cutter (opsional)
+- Laptop
+- Cutter
 
 ---
 
