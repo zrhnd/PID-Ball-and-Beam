@@ -61,7 +61,6 @@ PID (Proportional-Integral-Derivative) adalah algoritma kontrol umpan balik yang
 
 ### Wiring:
 <img width="1080" height="720" alt="Screenshot 2025-09-25 154521" src="https://github.com/user-attachments/assets/ad602c62-e211-4716-b083-f6ef2150b8a7" />
-### Koneksi Arduino:
 
 ### Encoder pinout:
 <img width="259" height="194" alt="images" src="https://github.com/user-attachments/assets/07cbf02e-0a90-410f-98fe-196f05aa89a0" />
